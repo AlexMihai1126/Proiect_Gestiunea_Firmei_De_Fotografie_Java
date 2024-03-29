@@ -1,2 +1,2 @@
-public class Obiectiv implements Echipament{
+public class Obiectiv extends Echipament{
 }

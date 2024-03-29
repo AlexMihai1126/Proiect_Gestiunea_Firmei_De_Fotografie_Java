@@ -1,2 +1,2 @@
-public class Stand implements Echipament{
+public class Stand extends Echipament{
 }

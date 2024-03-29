@@ -1,2 +1,3 @@
-public class Filtru implements Echipament{
+public class Filtru extends Echipament{
+
 }

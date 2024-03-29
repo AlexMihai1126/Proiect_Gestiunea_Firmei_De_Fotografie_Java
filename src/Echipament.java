@@ -1,3 +1,3 @@
-public interface Echipament {
+public class Echipament {
 
 }

@@ -1,3 +1,3 @@
-public class Camera implements Echipament{
+public class Camera extends Echipament{
 
 }

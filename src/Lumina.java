@@ -1,2 +1,2 @@
-public class Lumina implements Echipament{
+public class Lumina extends Echipament{
 }
