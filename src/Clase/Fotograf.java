@@ -1,3 +1,6 @@
+package Clase;
+
+import java.time.LocalDate;
 public class Fotograf {
     private String nume;
     private String prenume;
@@ -5,14 +8,16 @@ public class Fotograf {
     private String email;
     private String telefon;
     private String specializare;
+    private LocalDate dataAngajarii;
 
-    public Fotograf(String nume, String prenume, String cnp, String email, String telefon, String specializare) {
+    public Fotograf(String nume, String prenume, String cnp, String email, String telefon, String specializare, LocalDate dataAngajarii) {
         this.nume = nume;
         this.prenume = prenume;
         this.cnp = cnp;
         this.email = email;
         this.telefon = telefon;
         this.specializare = specializare;
+        this.dataAngajarii=dataAngajarii;
     }
 
     public String getNume() {
@@ -63,15 +68,24 @@ public class Fotograf {
         this.specializare = specializare;
     }
 
+    public LocalDate getDataAngajarii() {
+        return dataAngajarii;
+    }
+
+    public void setDataAngajarii(LocalDate dataAngajarii) {
+        this.dataAngajarii = dataAngajarii;
+    }
+
     @Override
     public String toString() {
-        return "Fotograf{" +
+        return "Clase.Fotograf{" +
                 "nume='" + nume + '\'' +
                 ", prenume='" + prenume + '\'' +
                 ", cnp='" + cnp + '\'' +
                 ", email='" + email + '\'' +
                 ", telefon='" + telefon + '\'' +
                 ", specializare='" + specializare + '\'' +
+                ", dataAngajarii=" + dataAngajarii +
                 '}';
     }
 }
