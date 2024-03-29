@@ -5,16 +5,14 @@ public class Fotograf {
     private String email;
     private String telefon;
     private String specializare;
-    private Date dateAngajarii;
 
-    public Fotograf(String nume, String prenume, String cnp, String email, String telefon, String specializare, Date dateAngajarii) {
+    public Fotograf(String nume, String prenume, String cnp, String email, String telefon, String specializare) {
         this.nume = nume;
         this.prenume = prenume;
         this.cnp = cnp;
         this.email = email;
         this.telefon = telefon;
         this.specializare = specializare;
-        this.dateAngajarii = dateAngajarii;
     }
 
     public String getNume() {
@@ -65,14 +63,6 @@ public class Fotograf {
         this.specializare = specializare;
     }
 
-    public Date getDataAngajarii() {
-        return dateAngajarii;
-    }
-
-    public void setDataAngajarii(Date dateAngajarii) {
-        this.dateAngajarii = dateAngajarii;
-    }
-
     @Override
     public String toString() {
         return "Fotograf{" +
@@ -82,7 +72,6 @@ public class Fotograf {
                 ", email='" + email + '\'' +
                 ", telefon='" + telefon + '\'' +
                 ", specializare='" + specializare + '\'' +
-                ", dataAngajarii=" + dateAngajarii +
                 '}';
     }
 }
