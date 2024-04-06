@@ -10,7 +10,6 @@ public class Obiectiv extends Echipament{
     private String tipCameraCompatibila;
     private String zoomObiectiv;
     private Float diafragmaMaxima;
-    private List<Filtru> filtreAtasate;
 
     public Obiectiv(String brandObiectiv, String modelObiectiv, String brandCameraCompatibila, String tipCameraCompatibila, String zoomObiectiv, Float diafragmaMaxima) {
         this.brandObiectiv = brandObiectiv;
@@ -67,14 +66,6 @@ public class Obiectiv extends Echipament{
 
     public void setDiafragmaMaxima(Float diafragmaMaxima) {
         this.diafragmaMaxima = diafragmaMaxima;
-    }
-
-    public List<Filtru> getFiltreAtasate() {
-        return filtreAtasate;
-    }
-
-    public void setFiltreAtasate(List<Filtru> filtreAtasate) {
-        this.filtreAtasate = filtreAtasate;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package Enums;
+package Clase;
 
 public enum ModelCamera {
     SonyA6700("Sony","ILCE-6700","Crop"),

@@ -5,11 +5,11 @@ import java.time.LocalDate;
 public class Eveniment {
     private List<Fotograf> fotografList;
     private List<Echipament> echipamenteList;
-    private Client clientEveniment;
+    private Persoana clientEveniment;
     private LocalDate dataStart;
     private LocalDate dataSfarsit;
 
-    public Eveniment(List<Fotograf> fotografList, List<Echipament> echipamenteList, Client clientEveniment, LocalDate dataStart, LocalDate dataSfarsit) {
+    public Eveniment(List<Fotograf> fotografList, List<Echipament> echipamenteList, Persoana clientEveniment, LocalDate dataStart, LocalDate dataSfarsit) {
         this.fotografList = fotografList;
         this.echipamenteList = echipamenteList;
         this.clientEveniment = clientEveniment;
@@ -33,11 +33,11 @@ public class Eveniment {
         this.echipamenteList = echipamenteList;
     }
 
-    public Client getClientEveniment() {
+    public Persoana getClientEveniment() {
         return clientEveniment;
     }
 
-    public void setClientEveniment(Client clientEveniment) {
+    public void setClientEveniment(Persoana clientEveniment) {
         this.clientEveniment = clientEveniment;
     }
 

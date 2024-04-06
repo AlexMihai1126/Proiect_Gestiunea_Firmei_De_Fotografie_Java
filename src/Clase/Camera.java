@@ -1,7 +1,5 @@
 package Clase;
 
-import Enums.ModelCamera;
-
 import java.util.List;
 
 public class Camera extends Echipament{
