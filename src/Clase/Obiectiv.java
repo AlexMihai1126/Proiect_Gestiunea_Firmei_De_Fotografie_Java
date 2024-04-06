@@ -8,16 +8,12 @@ public class Obiectiv extends Echipament{
     private String modelObiectiv;
     private String brandCameraCompatibila;
     private String tipCameraCompatibila;
-    private String zoomObiectiv;
-    private Float diafragmaMaxima;
 
-    public Obiectiv(String brandObiectiv, String modelObiectiv, String brandCameraCompatibila, String tipCameraCompatibila, String zoomObiectiv, Float diafragmaMaxima) {
+    public Obiectiv(String brandObiectiv, String modelObiectiv, String brandCameraCompatibila, String tipCameraCompatibila) {
         this.brandObiectiv = brandObiectiv;
         this.modelObiectiv = modelObiectiv;
         this.brandCameraCompatibila = brandCameraCompatibila;
         this.tipCameraCompatibila = tipCameraCompatibila;
-        this.zoomObiectiv = zoomObiectiv;
-        this.diafragmaMaxima = diafragmaMaxima;
     }
 
     public String getBrandObiectiv() {
@@ -51,23 +47,6 @@ public class Obiectiv extends Echipament{
     public void setTipCameraCompatibila(String tipCameraCompatibila) {
         this.tipCameraCompatibila = tipCameraCompatibila;
     }
-
-    public String getZoomObiectiv() {
-        return zoomObiectiv;
-    }
-
-    public void setZoomObiectiv(String zoomObiectiv) {
-        this.zoomObiectiv = zoomObiectiv;
-    }
-
-    public Float getDiafragmaMaxima() {
-        return diafragmaMaxima;
-    }
-
-    public void setDiafragmaMaxima(Float diafragmaMaxima) {
-        this.diafragmaMaxima = diafragmaMaxima;
-    }
-
     @Override
     public Float calculValoareDepreciata() {
         return null;
