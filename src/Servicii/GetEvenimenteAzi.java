@@ -1,6 +1,6 @@
 package Servicii;
 
-import Clase.Eveniment;
+import Modele.Eveniment;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
