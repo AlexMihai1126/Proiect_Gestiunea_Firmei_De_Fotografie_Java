@@ -1,4 +1,4 @@
-package Clase;
+package Modele;
 
 public class PersFizica extends Persoana {
     private String prenume;

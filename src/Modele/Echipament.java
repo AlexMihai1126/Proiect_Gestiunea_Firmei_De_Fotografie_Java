@@ -1,4 +1,4 @@
-package Clase;
+package Modele;
 
 import java.time.LocalDate;
 public abstract class Echipament {

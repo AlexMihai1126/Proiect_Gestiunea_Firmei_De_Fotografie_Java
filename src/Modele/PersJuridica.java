@@ -1,4 +1,4 @@
-package Clase;
+package Modele;
 
 public class PersJuridica extends Persoana {
     private Integer cui;

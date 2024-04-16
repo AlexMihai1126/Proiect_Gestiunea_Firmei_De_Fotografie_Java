@@ -1,7 +1,4 @@
-package Clase;
-
-import java.util.List;
-import java.util.Set;
+package Modele;
 
 public class Obiectiv extends Echipament{
     private String brandObiectiv;

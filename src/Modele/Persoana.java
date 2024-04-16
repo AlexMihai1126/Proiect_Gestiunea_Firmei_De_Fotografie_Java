@@ -1,4 +1,4 @@
-package Clase;
+package Modele;
 
 public abstract class Persoana {
     private String nume;
