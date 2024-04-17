@@ -1,4 +1,4 @@
-Gestiunea unei firme de fotografie - Proiect "Programare Avansata pe Obiecte" (PAO)
+#Gestiunea unei firme de fotografie - Proiect "Programare Avansata pe Obiecte" (PAO)
 
 Acest proiect implementeaza un sistem simplu de gestiune al unei firme de fotografie evenimente in limbajul Java
 
