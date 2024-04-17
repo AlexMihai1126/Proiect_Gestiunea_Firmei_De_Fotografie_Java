@@ -4,17 +4,17 @@ import Modele.Obiectiv;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ObiectivManager {
-    private static ObiectivManager instance;
+public class ObiectiveManager {
+    private static ObiectiveManager instance;
     private List<Obiectiv> obiective;
 
-    private ObiectivManager() {
+    private ObiectiveManager() {
         obiective = new ArrayList<>();
     }
 
-    public static ObiectivManager getInstance() {
+    public static ObiectiveManager getInstance() {
         if (instance == null) {
-            instance = new ObiectivManager();
+            instance = new ObiectiveManager();
         }
         return instance;
     }
