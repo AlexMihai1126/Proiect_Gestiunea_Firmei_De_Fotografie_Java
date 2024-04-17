@@ -56,4 +56,15 @@ public class Eveniment {
     public void setDataSfarsit(LocalDate dataSfarsit) {
         this.dataSfarsit = dataSfarsit;
     }
+
+    @Override
+    public String toString() {
+        return "Eveniment{" +
+                "fotografList=" + fotografList +
+                ", echipamenteList=" + echipamenteList +
+                ", clientEveniment=" + clientEveniment +
+                ", dataStart=" + dataStart +
+                ", dataSfarsit=" + dataSfarsit +
+                '}';
+    }
 }

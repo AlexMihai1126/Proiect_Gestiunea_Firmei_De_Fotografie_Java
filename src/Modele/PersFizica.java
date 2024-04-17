@@ -19,4 +19,12 @@ public class PersFizica extends Persoana {
     public void setCnp(Integer cnp) {
         this.cnp = cnp;
     }
+
+    @Override
+    public String toString() {
+        return "PersFizica{" +
+                "prenume='" + prenume + '\'' +
+                ", cnp=" + cnp +
+                "} " + super.toString();
+    }
 }

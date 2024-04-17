@@ -28,4 +28,13 @@ public abstract class Persoana {
     public void setTelefon(String telefon) {
         this.telefon = telefon;
     }
+
+    @Override
+    public String toString() {
+        return "Persoana{" +
+                "nume='" + nume + '\'' +
+                ", email='" + email + '\'' +
+                ", telefon='" + telefon + '\'' +
+                '}';
+    }
 }

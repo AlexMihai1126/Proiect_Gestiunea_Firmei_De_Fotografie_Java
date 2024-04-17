@@ -35,4 +35,13 @@ public class Camera extends Echipament{
     public Float calculValoareDepreciata() {
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Camera{" +
+                "modelCamera=" + modelCamera +
+                ", numarEvenimente=" + numarEvenimente +
+                ", obiectiveUtilizate=" + obiectiveUtilizate +
+                "} " + super.toString();
+    }
 }

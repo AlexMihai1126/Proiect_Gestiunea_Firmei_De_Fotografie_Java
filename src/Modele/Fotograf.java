@@ -20,4 +20,12 @@ public class Fotograf extends PersFizica {
     public void setDataAngajarii(LocalDate dataAngajarii) {
         this.dataAngajarii = dataAngajarii;
     }
+
+    @Override
+    public String toString() {
+        return "Fotograf{" +
+                "specializare='" + specializare + '\'' +
+                ", dataAngajarii=" + dataAngajarii +
+                "} " + super.toString();
+    }
 }

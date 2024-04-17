@@ -22,4 +22,12 @@ public abstract class Echipament {
     }
 
     public abstract Float calculValoareDepreciata();
+
+    @Override
+    public String toString() {
+        return "Echipament{" +
+                "pretAchizitie=" + pretAchizitie +
+                ", dataAchizitiei=" + dataAchizitiei +
+                '}';
+    }
 }

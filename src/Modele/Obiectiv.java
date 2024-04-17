@@ -41,4 +41,14 @@ public class Obiectiv extends Echipament{
     public Float calculValoareDepreciata() {
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Obiectiv{" +
+                "brandObiectiv='" + brandObiectiv + '\'' +
+                ", modelObiectiv='" + modelObiectiv + '\'' +
+                ", brandCameraCompatibila='" + brandCameraCompatibila + '\'' +
+                ", tipCameraCompatibila='" + tipCameraCompatibila + '\'' +
+                "} " + super.toString();
+    }
 }
