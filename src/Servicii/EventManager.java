@@ -2,10 +2,7 @@ package Servicii;
 
 import Modele.Eveniment;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class EventManager {
     private static EventManager instance;
@@ -40,6 +37,10 @@ public class EventManager {
     }
 
     public List<Eveniment> getEvenimenteAsList() {
+        if(evenimente.isEmpty()) {
+            System.out.println("Nu exista evenimente.");
+            return Collections.emptyList();
+        }
         return new ArrayList<>(evenimente);
     }
 

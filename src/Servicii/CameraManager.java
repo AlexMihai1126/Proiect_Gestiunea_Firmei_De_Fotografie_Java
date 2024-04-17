@@ -2,6 +2,7 @@ package Servicii;
 
 import Modele.Camera;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CameraManager {
@@ -37,6 +38,10 @@ public class CameraManager {
     }
 
     public List<Camera> getCamere() {
+        if(camere.isEmpty()) {
+            System.out.println("Nu exista cammere.");
+            return Collections.emptyList();
+        }
         return new ArrayList<>(camere);
     }
 }

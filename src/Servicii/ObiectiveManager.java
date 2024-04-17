@@ -2,6 +2,7 @@ package Servicii;
 
 import Modele.Obiectiv;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ObiectiveManager {
@@ -37,6 +38,10 @@ public class ObiectiveManager {
     }
 
     public List<Obiectiv> getObiective() {
+        if(obiective.isEmpty()) {
+            System.out.println("Nu exista obiective.");
+            return Collections.emptyList();
+        }
         return new ArrayList<>(obiective);
     }
 }

@@ -1,6 +1,7 @@
 package Servicii;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import Modele.Persoana;
 
@@ -37,6 +38,10 @@ public class PeopleManager {
     }
 
     public List<Persoana> getAllPersoane() {
+        if(persoane.isEmpty()) {
+            System.out.println("Nu exista persoane.");
+            return Collections.emptyList();
+        }
         return new ArrayList<>(persoane);
     }
 
