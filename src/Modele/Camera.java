@@ -5,13 +5,7 @@ import java.util.List;
 public class Camera extends Echipament{
     private ModelCamera modelCamera;
     private Integer numarEvenimente;
-
     private List<Obiectiv> obiectiveUtilizate;
-
-    public Camera(ModelCamera modelCamera, Integer numarEvenimente) {
-        this.modelCamera = modelCamera;
-        this.numarEvenimente = numarEvenimente;
-    }
 
     public ModelCamera getModelCamera() {
         return modelCamera;

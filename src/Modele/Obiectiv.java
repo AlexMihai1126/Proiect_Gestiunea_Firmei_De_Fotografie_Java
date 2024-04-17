@@ -6,13 +6,6 @@ public class Obiectiv extends Echipament{
     private String brandCameraCompatibila;
     private String tipCameraCompatibila;
 
-    public Obiectiv(String brandObiectiv, String modelObiectiv, String brandCameraCompatibila, String tipCameraCompatibila) {
-        this.brandObiectiv = brandObiectiv;
-        this.modelObiectiv = modelObiectiv;
-        this.brandCameraCompatibila = brandCameraCompatibila;
-        this.tipCameraCompatibila = tipCameraCompatibila;
-    }
-
     public String getBrandObiectiv() {
         return brandObiectiv;
     }
